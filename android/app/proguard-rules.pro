@@ -1,0 +1,5 @@
+-dontwarn com.google.**
+-dontwarn io.flutter.**
+-keep class com.google.** { *; }
+-keep interface com.google.** { *; }
+-keep class * implements com.google.firebase.components.ComponentRegistrar { *; }
